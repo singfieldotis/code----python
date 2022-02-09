@@ -1,5 +1,6 @@
 # import colorgram
 
+# used colorgram to extract color pallette from image.jpg
 # rgb_colors = []
 # colors = colorgram.extract('image.jpg', 30)
 # for color in colors:
@@ -25,6 +26,7 @@ def random_color():
     return color
 
 # user color_list initially as it was a Damien Hirst color pallette but decided to make random_color() generator instead
+# color_list consists of RGB values after pulling them from objects created by colorgram package
 # color_list = [(216, 149, 90), (53, 106, 136), (151, 85, 55), (123, 162, 187), (143, 67, 93), (217, 86, 61), (202, 131, 155), (166, 151, 46), (53, 122, 86), (44, 38, 30), (198, 86, 117),
 #              (27, 47, 69), (120, 179, 153), (229, 201, 115), (74, 160, 121), (39, 56, 108), (49, 34, 45), (27, 47, 37), (239, 161, 184), (120, 35, 56), (103, 120, 168), (49, 158, 178), (245, 167, 155), (9, 101, 75), (113, 43, 33), (155, 212, 188)]
 
